@@ -2,3 +2,108 @@
 /* *** Estilos SOLO para index.html *** */
 /* *********************************** */
 
+#container{
+    height: 100vh;
+    display:grid;
+    grid-template-columns: 10% 1fr 10%;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+header{
+    grid-column:1/span-1;
+    grid-row: 1/2;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: black;
+    align-items: center;
+}
+main{
+grid-column:1/span-1;
+grid-row:2/3;
+display:grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: 45% 15% 40%;
+align-items: center;
+
+}
+
+footer{
+grid-column:1/span-1;
+grid-row:3/3;
+background-color: black;
+color:white;
+display:flex;
+justify-content:center;
+align-items: center;
+}
+
+nav{
+    grid-column:3/4;
+    display: flex;
+    justify-content:space-around;
+   
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.header__h1__logotipo{
+    color: white;
+    padding-left: 2em;
+    font-size:2rem;
+}
+
+.banner{
+   
+    height: 400px;
+    grid-column:1/span-1;
+    grid-row: 1/2;
+    background-image: url(../img/desktop/bannermontañas.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.main__texto__central{
+    grid-column:1/4;
+    justify-self: center;
+    background-color:rgb(187, 179, 179);
+    height:2rem;
+    border: solid 1px black;
+    align-self: center;
+    border-radius:10px;
+}
+
+
+.main__figure__izquierda{
+    grid-column:1/2;
+    grid-row: 3/4;
+    text-align:center;
+    background-color: rgb(187, 179, 179);
+    width:200px;   
+    justify-self:center;
+    border-radius: 10px;
+      
+}
+
+.main__figure__centro{
+    grid-column:2/3;
+    grid-row: 3/4;
+    text-align:center;
+    background-color: rgb(187, 179, 179);
+    width:200px;   
+    justify-self:center;
+    border-radius: 10px;
+}
+
+.main__figure__derecha{
+    grid-column:3/4;
+    grid-row: 3/4;
+    text-align:center;
+    background-color: rgb(187, 179, 179);
+    width:200px;   
+    justify-self:center;
+    border-radius: 10px;
+}

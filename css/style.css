@@ -15,3 +15,21 @@
 
 /* ******************************** */
 
+.root {
+
+    /* colores */
+    --color-negro-medium:rgb(26, 25, 25, 0);
+
+/* Tipografias */
+    --h1:4rem;
+    --h2:3rem;
+    --h3:2rem
+    --h4:1rem;  /* 16px */
+    --h5:0.5rem;
+    --h6:0.35rem;
+
+
+
+
+}
+
